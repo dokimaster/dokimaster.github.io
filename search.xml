@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Linux常用命令汇总</title>
+      <link href="yun-wei-chang-yong-ming-ling/"/>
+      <url>yun-wei-chang-yong-ming-ling/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Centos8-防火墙关闭"><a href="#Centos8-防火墙关闭" class="headerlink" title="Centos8 防火墙关闭"></a>Centos8 防火墙关闭</h2><pre class=" language-bash"><code class="language-bash">systemctl stop  firewalld.servicesystemctl disable  firewalld.service</code></pre><h2 id="上传下载文件（仅Xshell）"><a href="#上传下载文件（仅Xshell）" class="headerlink" title="上传下载文件（仅Xshell）"></a>上传下载文件（仅Xshell）</h2><pre class=" language-shell"><code class="language-shell">sz #保存文件rz #上传文件</code></pre><h1 id="权限"><a href="#权限" class="headerlink" title="权限"></a>权限</h1><p>使用chattr给权限</p><pre class=" language-bash"><code class="language-bash">chattr +i config.php <span class="token comment" spellcheck="true">#使用chattr给予文件权限</span></code></pre><p>使用chattr取消权限</p><pre class=" language-bash"><code class="language-bash">chattr -i config.php <span class="token comment" spellcheck="true">#使用chattr取消文件权限</span></code></pre><p>查看权限</p><pre class=" language-bash"><code class="language-bash">lsattr <span class="token comment" spellcheck="true">#查看权限</span></code></pre><h1 id="端口"><a href="#端口" class="headerlink" title="端口"></a>端口</h1><p>查看正在运行的端口</p><pre class=" language-bash"><code class="language-bash"><span class="token function">netstat</span> -nutlp <span class="token operator">|</span><span class="token function">grep</span> *</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> SSH </tag>
+            
+            <tag> Centos </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用Scoop包管理工具管理Windows软件</title>
       <link href="shi-yong-scoop-bao-guan-li-gong-ju-guan-li-windows-ruan-jian/"/>
       <url>shi-yong-scoop-bao-guan-li-gong-ju-guan-li-windows-ruan-jian/</url>
